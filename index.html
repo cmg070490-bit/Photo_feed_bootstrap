@@ -17,51 +17,71 @@
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar bg-light">
-        <div class="container d-flex justify-content-between">
+    <nav class="navbar navbar-light navbar-expand-lg">
 
+        <div class="container">
+
+            <!-- LOGO -->
             <div>
                 <i class="bi bi-instagram"></i>
                 <strong>Instagram</strong>
             </div>
 
-            <!-- BOTÓN -->
-            <div class="d-flex align-items-center gap-2">
+            <!-- BOTÓN HAMBURGUESA -->
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
 
-                <!-- CREATE POST -->
-                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Create content
-                </button>
+                <span class="navbar-toggler-icon  "></span>
 
-                <!-- DROPDOWN -->
-                <div class="dropdown">
+            </button>
 
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+            <!-- CONTENIDO COLAPSABLE -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
 
-                        <i class="bi bi-gear-fill"></i>
+                <div class="d-flex align-items-center gap-2">
+
+                    <!-- CREATE POST -->
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                        Create content
                     </button>
 
-                    <ul class="dropdown-menu dropdown-menu-end">
+                    <!-- DROPDOWN -->
+                    <div class="dropdown">
 
-                        <li><a class="dropdown-item" href="#">Profile</a></li>
-                        <li><a class="dropdown-item" href="#">Accesibility</a></li>
-                        <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
 
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
+                            <i class="bi bi-gear-fill"></i>
 
-                        <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                        </button>
 
-                    </ul>
+                        <ul class="dropdown-menu dropdown-menu-end">
+
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item text-danger" href="#">
+                                    Log out
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
 
                 </div>
 
             </div>
-            </button>
 
         </div>
+
     </nav>
 
     <!-- MODAL (igual que el tuyo, no lo toco mucho) -->
@@ -122,38 +142,38 @@
                 <div class="row g-2">
 
                     <!-- IMÁGENES GRID -->
-                    <div class="col-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <img class="img-fluid" src="https://picsum.photos/500?1">
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <img class="img-fluid" src="https://picsum.photos/500?2">
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <img class="img-fluid" src="https://picsum.photos/500?3">
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <img class="img-fluid" src="https://picsum.photos/500?4">
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <img class="img-fluid" src="https://picsum.photos/500?5">
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <img class="img-fluid" src="https://picsum.photos/500?6">
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <img class="img-fluid" src="https://picsum.photos/500?7">
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <img class="img-fluid" src="https://picsum.photos/500?8">
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <img class="img-fluid" src="https://picsum.photos/500?9">
                     </div>
 
